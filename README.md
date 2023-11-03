@@ -1,5 +1,5 @@
 # RealTimeChatApp
-Engine: ReactJS, Express, MongoDB, NodeJS, SocketIO
+Engine: ReactJS, Express, MongoDB, NodeJS, SocketIO <br>
 express: Express.js là một framework phía máy chủ (server-side framework) dựa trên Node.js, được sử dụng để xây dựng các ứng dụng web và API. Nó giúp quản lý tạo và quản lý các route, middleware, và xử lý HTTP requests và responses.
 
 mongoose: Mongoose là một thư viện cho Node.js cho phép bạn tương tác với cơ sở dữ liệu MongoDB một cách dễ dàng. Nó cung cấp một giao diện đối tượng cho MongoDB, giúp xây dựng các mô hình dữ liệu và thực hiện các thao tác như tạo, đọc, sửa và xóa dữ liệu.
