@@ -36,11 +36,11 @@ export default function ChatContainer({ currentChat, currentUser, socket }) {
             from: currentUser._id,
             msg,
         });
-        await axios.post(sendMessageRoute, {
-            from: currentUser._id,
-            to: currentChat._id,
-            message: msg,
-        });
+        // await axios.post(sendMessageRoute, {
+        //     from: currentUser._id,
+        //     to: currentChat._id,
+        //     message: msg,
+        // });
 
         const msgs = [...messages];
         msgs.push({ fromSelf: true, message: msg });
